@@ -1,0 +1,276 @@
+@startgantt Convexus AMM implementation progress
+
+Project starts the 6th of december 2021
+
+<style>
+ganttDiagram {
+	FontColor White
+	BackGroundColor #111830
+	LineColor #010800
+
+	task {
+		Padding 5
+		BackGroundColor #b75e76
+		LineColor #bb7568
+		ArrowColor #b75e76
+	}
+
+	arrow {
+		LineColor #bb7568
+		LineStyle 8.0; 13.0
+		LineThickness 3.0
+	}
+
+	separator {
+		BackgroundColor #402440
+		LineColor #402440
+		LineStyle 8.0; 3.0
+		LineThickness 1.0
+		FontSize 16
+		FontStyle bold
+		Margin 10
+		Padding 10
+	}
+
+	milestone {
+		FontSize 25
+		BackGroundColor #402440
+		LineColor #604460
+	}
+}
+</style>
+
+-- Karma Bond --
+
+[Start] happens on 2021-12-12
+[M1] happens on 2022-01-11 and displays on same row as [Start]
+[M2] happens on 2022-02-10 and displays on same row as [Start]
+[M3] happens on 2022-03-12 and displays on same row as [Start]
+[M4] happens on 2022-04-11 and displays on same row as [Start]
+[M5] happens on 2022-05-11 and displays on same row as [Start]
+
+' --- Bond --- 
+[Bond implementation] lasts 10 days
+[Bond implementation] is 100% completed
+[Bond implementation] starts at 2021-12-12
+
+[Bond unit testing] lasts 10 days
+[Bond unit testing] starts at [Bond implementation]'s end
+[Bond unit testing] starts at 2022-01-26
+[Bond unit testing] is 0% completed
+
+[Bond documentation] lasts 10 days
+[Bond documentation] starts at [Bond implementation]'s end
+[Bond documentation] starts at 2022-01-26
+[Bond documentation] is 0% completed
+
+[Bond integration testing] lasts 5 days
+[Bond integration testing] starts at [Bond documentation]'s end
+[Bond integration testing] starts at 2022-03-02
+[Bond integration testing] is 0% completed
+
+' --- Treasury ---
+[Treasury implementation] lasts 10 days
+[Treasury implementation] is 100% completed
+[Treasury implementation] starts at 2021-12-12
+
+[Treasury unit testing] lasts 5 days
+[Treasury unit testing] starts at [Treasury implementation]'s end
+[Treasury unit testing] starts at 2022-01-16
+[Treasury unit testing] is 100% completed
+
+[Treasury documentation] lasts 3 days
+[Treasury documentation] starts at [Treasury implementation]'s end
+[Treasury documentation] starts at 2022-01-16
+[Treasury documentation] is 100% completed
+
+[Treasury integration testing] lasts 5 days
+[Treasury integration testing] starts at [Treasury documentation]'s end
+[Treasury integration testing] starts at 2022-03-02
+[Treasury integration testing] is 0% completed
+
+' --- Factory ---
+[Factory implementation] lasts 5 days
+[Factory implementation] is 100% completed
+[Factory implementation] starts at 2021-12-13
+
+[Factory unit testing] lasts 5 days
+[Factory unit testing] starts at [Factory implementation]'s end
+[Factory unit testing] starts at 2022-01-26
+[Factory unit testing] is 0% completed
+
+[Factory documentation] lasts 3 days
+[Factory documentation] starts at [Factory implementation]'s end
+[Factory documentation] starts at 2022-01-26
+[Factory documentation] is 0% completed
+
+[Factory integration testing] lasts 5 days
+[Factory integration testing] starts at [Factory documentation]'s end
+[Factory integration testing] starts at 2022-02-25
+[Factory integration testing] is 0% completed
+
+' --- Factory Storage ---
+[Factory Storage implementation] lasts 5 days
+[Factory Storage implementation] is 100% completed
+[Factory Storage implementation] starts at 2021-12-17
+
+[Factory Storage unit testing] lasts 5 days
+[Factory Storage unit testing] starts at [Factory Storage implementation]'s end
+[Factory Storage unit testing] starts at 2022-01-22
+[Factory Storage unit testing] is 30% completed
+
+[Factory Storage documentation] lasts 3 days
+[Factory Storage documentation] starts at [Factory Storage implementation]'s end
+[Factory Storage documentation] starts at 2022-01-22
+[Factory Storage documentation] is 30% completed
+
+[Factory Storage integration testing] lasts 5 days
+[Factory Storage integration testing] starts at [Factory Storage documentation]'s end
+[Factory Storage integration testing] starts at 2022-02-25
+[Factory Storage integration testing] is 0% completed
+
+' --- Subsidy Router ---
+[Subsidy Router implementation] lasts 5 days
+[Subsidy Router implementation] is 100% completed
+[Subsidy Router implementation] starts at 2021-12-19
+
+[Subsidy Router unit testing] lasts 5 days
+[Subsidy Router unit testing] starts at [Subsidy Router implementation]'s end
+[Subsidy Router unit testing] starts at 2022-01-16
+[Subsidy Router unit testing] is 100% completed
+
+[Subsidy Router documentation] lasts 3 days
+[Subsidy Router documentation] starts at [Subsidy Router implementation]'s end
+[Subsidy Router documentation] starts at 2022-01-16
+[Subsidy Router documentation] is 100% completed
+
+[Subsidy Router integration testing] lasts 2 days
+[Subsidy Router integration testing] starts at [Subsidy Router documentation]'s end
+[Subsidy Router integration testing] starts at 2022-03-02
+[Subsidy Router integration testing] is 0% completed
+
+-- Karma DAO --
+
+' --- KARMA Token ---
+[KARMA Token implementation] lasts 10 days
+[KARMA Token implementation] is 100% completed
+[KARMA Token implementation] starts at 2021-12-12
+
+[KARMA Token unit testing] lasts 5 days
+[KARMA Token unit testing] starts at [KARMA Token implementation]'s end
+[KARMA Token unit testing] starts at 2022-02-13
+[KARMA Token unit testing] is 0% completed
+
+[KARMA Token documentation] lasts 3 days
+[KARMA Token documentation] starts at [KARMA Token implementation]'s end
+[KARMA Token documentation] starts at 2022-02-13
+[KARMA Token documentation] is 0% completed
+
+[KARMA Token integration testing] lasts 5 days
+[KARMA Token integration testing] starts at [KARMA Token documentation]'s end
+[KARMA Token integration testing] starts at 2022-03-07
+[KARMA Token integration testing] is 0% completed
+
+' --- Karma Treasury ---
+[Karma Treasury implementation] lasts 12 days
+[Karma Treasury implementation] is 0% completed
+[Karma Treasury implementation] starts at 2022-02-04
+
+[Karma Treasury unit testing] lasts 7 days
+[Karma Treasury unit testing] starts at [Karma Treasury implementation]'s end
+[Karma Treasury unit testing] starts at 2022-02-15
+[Karma Treasury unit testing] is 0% completed
+
+[Karma Treasury documentation] lasts 5 days
+[Karma Treasury documentation] starts at [Karma Treasury implementation]'s end
+[Karma Treasury documentation] starts at 2022-02-15
+[Karma Treasury documentation] is 0% completed
+
+[Karma Treasury integration testing] lasts 7 days
+[Karma Treasury integration testing] starts at [Karma Treasury documentation]'s end
+[Karma Treasury integration testing] starts at 2022-03-07
+[Karma Treasury integration testing] is 0% completed
+
+
+' --- Bond Engine ---
+[Bond Engine implementation] lasts 10 days
+[Bond Engine implementation] is 100% completed
+[Bond Engine implementation] starts at 2021-12-12
+
+[Bond Engine unit testing] lasts 10 days
+[Bond Engine unit testing] starts at [Bond Engine implementation]'s end
+[Bond Engine unit testing] starts at 2022-02-17
+[Bond Engine unit testing] is 0% completed
+
+[Bond Engine documentation] lasts 6 days
+[Bond Engine documentation] starts at [Bond Engine implementation]'s end
+[Bond Engine documentation] starts at 2022-02-17
+[Bond Engine documentation] is 0% completed
+
+[Bond Engine integration testing] lasts 10 days
+[Bond Engine integration testing] starts at [Bond Engine documentation]'s end
+[Bond Engine integration testing] starts at 2022-03-12
+[Bond Engine integration testing] is 0% completed
+
+' --- Staking ---
+[Staking implementation] lasts 5 days
+[Staking implementation] is 100% completed
+[Staking implementation] starts at 2021-12-19
+
+[Staking unit testing] lasts 5 days
+[Staking unit testing] starts at [Staking implementation]'s end
+[Staking unit testing] starts at 2022-02-21
+[Staking unit testing] is 0% completed
+
+[Staking documentation] lasts 3 days
+[Staking documentation] starts at [Staking implementation]'s end
+[Staking documentation] starts at 2022-02-21
+[Staking documentation] is 0% completed
+
+[Staking integration testing] lasts 5 days
+[Staking integration testing] starts at [Staking documentation]'s end
+[Staking integration testing] starts at 2022-03-15
+[Staking integration testing] is 0% completed
+
+' --- Authority ---
+[Authority implementation] lasts 5 days
+[Authority implementation] is 100% completed
+[Authority implementation] starts at 2021-12-21
+
+[Authority unit testing] lasts 5 days
+[Authority unit testing] starts at [Authority implementation]'s end
+[Authority unit testing] starts at 2022-02-25
+[Authority unit testing] is 0% completed
+
+[Authority documentation] lasts 3 days
+[Authority documentation] starts at [Authority implementation]'s end
+[Authority documentation] starts at 2022-02-25
+[Authority documentation] is 0% completed
+
+[Authority integration testing] lasts 3 days
+[Authority integration testing] starts at [Authority documentation]'s end
+[Authority integration testing] starts at 2022-03-25
+[Authority integration testing] is 0% completed
+
+' --- Governance ---
+[Governance implementation] lasts 10 days
+[Governance implementation] is 0% completed
+[Governance implementation] starts at 2022-02-30
+
+[Governance unit testing] lasts 5 days
+[Governance unit testing] starts at [Governance implementation]'s end
+[Governance unit testing] starts at 2022-03-15
+[Governance unit testing] is 0% completed
+
+[Governance documentation] lasts 3 days
+[Governance documentation] starts at [Governance implementation]'s end
+[Governance documentation] starts at 2022-03-15
+[Governance documentation] is 0% completed
+
+[Governance integration testing] lasts 10 days
+[Governance integration testing] starts at [Governance documentation]'s end
+[Governance integration testing] starts at 2022-04-01
+[Governance integration testing] is 0% completed
+
+
+@endgantt
